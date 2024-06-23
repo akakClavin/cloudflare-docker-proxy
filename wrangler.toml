@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.lalavia.dns-dynamic.net", custom_domain = true },
-#   { pattern = "quay.lalavia.dns-dynamic.net", custom_domain = true },
-#   { pattern = "gcr.lalavia.dns-dynamic.net", custom_domain = true },
-#   { pattern = "k8s-gcr.lalavia.dns-dynamic.net", custom_domain = true },
-#   { pattern = "k8s.lalavia.dns-dynamic.net", custom_domain = true },
-#   { pattern = "ghcr.lalavia.dns-dynamic.net", custom_domain = true },
-#   { pattern = "cloudsmith.lalavia.dns-dynamic.net", custom_domain = true },
+#   { pattern = "docker.airevolution.top", custom_domain = true },
+#   { pattern = "quay.airevolution.top", custom_domain = true },
+#   { pattern = "gcr.airevolution.top", custom_domain = true },
+#   { pattern = "k8s-gcr.airevolution.top", custom_domain = true },
+#   { pattern = "k8s.airevolution.top", custom_domain = true },
+#   { pattern = "ghcr.airevolution.top", custom_domain = true },
+#   { pattern = "cloudsmith.airevolution.top", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.lalavia.dns-dynamic.net", custom_domain = true }
+# route = { pattern = "docker-staging.airevolution.top", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
