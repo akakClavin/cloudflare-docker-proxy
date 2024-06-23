@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.lalavia.dns-dynamic.net": dockerHub,
-  "quay.lalavia.dns-dynamic.net": "https://quay.io",
-  "gcr.lalavia.dns-dynamic.net": "https://gcr.io",
-  "k8s-gcr.lalavia.dns-dynamic.net": "https://k8s.gcr.io",
-  "k8s.lalavia.dns-dynamic.net": "https://registry.k8s.io",
-  "ghcr.lalavia.dns-dynamic.net": "https://ghcr.io",
-  "cloudsmith.lalavia.dns-dynamic.net": "https://docker.cloudsmith.io",
+  "docker.airevolution.top": dockerHub,
+  "quay.airevolution.top": "https://quay.io",
+  "gcr.airevolution.top": "https://gcr.io",
+  "k8s-gcr.airevolution.top": "https://k8s.gcr.io",
+  "k8s.airevolution.top": "https://registry.k8s.io",
+  "ghcr.airevolution.top": "https://ghcr.io",
+  "cloudsmith.airevolution.top": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.lalavia.dns-dynamic.net": dockerHub,
+  "docker-staging.airevolution.top": dockerHub,
 };
 
 function routeByHosts(host) {
